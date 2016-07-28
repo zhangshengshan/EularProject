@@ -1,0 +1,10 @@
+New log file opened at Thu Jul 28 13:10:38 CST 2016 by 3425@zhangs-MacBook-Pro-2.local
+Taking next connection to: 54006
+New client attempting to connect on port: 54007-54006
+  Address = /172.17.9.209:54006
+This client on port 54007 has uuid 1be5ac63-0f66-4316-8137-a91d2110afe4 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-1be5ac63-0f66-4316-8137-a91d2110afe4
+Taking next connection to: 54006
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 54006
