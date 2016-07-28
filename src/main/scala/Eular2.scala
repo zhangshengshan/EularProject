@@ -11,6 +11,9 @@ object Eular2 {
     case _ => fabnaci(n - 1) + fabnaci(n - 2)
   }
 
+  def fibFrom(a:BigInt,b:BigInt):Stream[BigInt]={
+    a#::fibFrom(b,a+b)
+  }
 
   def main(args: Array[String]): Unit = {
     var n = 1
@@ -25,5 +28,15 @@ object Eular2 {
       n = n + 1
     }
     println("sum is "+sum)
+
+
+
+    //try another way to solve
+
+    val a = fibFrom(1,2)
+    val num = a.take(100).filter((x:BigInt)=> x % 2 ==0 && x < 4000000).toList.reduce(_ + _)
+    println("num is "+num)
+
+
   }
 }
