@@ -29,8 +29,6 @@ object Eular2 {
     }
     println("sum is "+sum)
 
-
-
     //try another way to solve
 
     val a = fibFrom(1,2)
