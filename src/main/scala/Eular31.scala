@@ -15,13 +15,12 @@ object Eular31 {
 //    for( i<- 1 to 10){
 //      print(i,":")
 //      for ( j <- 0 to 7 ){
-//
 //        print(func(i,j))
 //        print(" ")
 //      }
 //      println(" ")
 //    }
-
+    
     println(func(200,7))
   }
 }
