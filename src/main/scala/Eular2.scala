@@ -34,6 +34,7 @@ object Eular2 {
     //try another way to solve
 
     val a = fibFrom(1,2)
+    //make sure take a substream from a with a,take(100).head > 4000000
     val num = a.take(100).filter((x:BigInt)=> x % 2 ==0 && x < 4000000).toList.reduce(_ + _)
     println("num is "+num)
 
