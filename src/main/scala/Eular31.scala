@@ -19,8 +19,8 @@ object Eular31 {
 //        print(" ")
 //      }
 //      println(" ")
-//    }
-    
+//    }1
+
     println(func(200,7))
   }
 }
